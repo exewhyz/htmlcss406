@@ -1,0 +1,100 @@
+
+
+/* universal selector */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* element selector */
+
+/* div {
+  background-color: black;
+  color: aliceblue;
+} */
+
+/* id selector */
+
+#first-div{
+    font-style: italic;
+    margin: 5px 0;
+}
+
+/* class selector */
+
+.bold{
+    font-weight: bold;
+}
+
+/* group selector */
+
+/* .bold, #first-div{
+    border: 1px solid red;
+} */
+
+/* body {
+    margin: 10px;
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+}
+
+.box-model{
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+    border: 5px solid black;
+}
+.box-model>p{
+    background-color: red;
+    color: white;
+} */
+
+
+/* div{
+    border: 1px solid red; 
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+} */
+
+/* absolute units - px,cm,in */
+
+/* .abs-unit{
+    width: 100px;
+    height: 100px;
+} */
+/* relative units - rem, em, vh, vw, % */
+
+/* .rel-unit{
+    width: 40%;
+    height: 30%;
+} */
+/* html{
+    font-size: 20px;
+}
+.rel-unit{
+    font-size: 4rem;
+} */
+
+/* .parent-div-rel{
+    font-size: 25px;
+}
+.rel-unit{
+    font-size: 2em;
+} */
+
+/* div,p{
+    background-color: blue;
+    margin: 2px;
+} */
+
+img,a,span{
+    background-color: blue;
+    margin: 2px;
+    color: aliceblue;
+    display: inline-block;
+    width: 100px;
+}
